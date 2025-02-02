@@ -1,0 +1,22 @@
+{
+  "name": "household-account",
+  "version": "1.0.0",
+  "description": "Save Money in Times of High Inflation",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NijinHHA/Household-Account.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NijinHHA/Household-Account/issues"
+  },
+  "homepage": "https://github.com/NijinHHA/Household-Account#readme"
+}
