@@ -20,3 +20,8 @@ distribution = true
 
 [project.scripts]
 household-account = "household_account.where_now:entry_point"
+
+[dependency-groups]
+eda = [
+    "jupyterlab>=4.3.5",
+]
