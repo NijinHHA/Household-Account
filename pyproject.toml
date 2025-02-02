@@ -1,6 +1,6 @@
 [project]
 name = "Household-Account"
-version = "0.3.0"
+version = "0.3.1"
 description = "Save Money in Times of High Inflation"
 authors = [
     {name = "heejin131", email = "journeyjean131@gmail.com"},
@@ -20,3 +20,8 @@ distribution = true
 
 [project.scripts]
 household-account = "household_account.where_now:entry_point"
+
+[dependency-groups]
+eda = [
+    "jupyterlab>=4.3.5",
+]
